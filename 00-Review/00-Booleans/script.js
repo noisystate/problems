@@ -56,7 +56,7 @@ if(alsoNotDefined){
     console.log('You are just dreaming that this message can show up');
 }
 
-// null also is used to describe that a variable deson't have a value yet but is defined
+// null also is used to describe that an object deson't have a value yet but is defined
 // null is also considered a falsy value
 
 let nullVar = null;
