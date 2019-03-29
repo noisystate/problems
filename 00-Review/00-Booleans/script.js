@@ -15,45 +15,45 @@ let b4 = b1 || b2 && b3;
 
 // Among Numbers 0 is falsy
 
-if(0){
-    console.log('This line is not going to be printed');
+if (0) {
+    console.log('001\t', 'This line is not going to be printed');
 }
 
-if(-15){
-    console.log('This line will be printed');
+if (-15) {
+    console.log('002\t', 'This line will be printed');
 }
 
 // Among strings empty string is considered falsy value ""
 
-if(""){
-    console.log('You are bad');
+if ("") {
+    console.log('003\t', 'You are bad');
 }
 
 // Any other string is considered truthy
 
-if("bayan"){
-    console.log('You are cute :P');
+if ("bayan") {
+    console.log('004\t', 'You are cute :P');
 }
 
 // Another falsy value is undefined
 
 // You can use it explicitly
 
-if(undefined){
-    console.log('No, I will not get printed');
+if (undefined) {
+    console.log('005\t', 'No, I will not get printed');
 }
 let notDefined = undefined;
 
-console.log(notDefined);
+console.log('006\t',notDefined);
 
 // and if a variable is declared without being initialized it will be undefined
 
 let alsoNotDefined;
 
-console.log(alsoNotDefined);
+console.log('007\t',alsoNotDefined);
 
-if(alsoNotDefined){
-    console.log('You are just dreaming that this message can show up');
+if (alsoNotDefined) {
+    console.log('008\t', 'You are just dreaming that this message can show up');
 }
 
 // null also is used to describe that an object deson't have a value yet but is defined
@@ -61,37 +61,37 @@ if(alsoNotDefined){
 
 let nullVar = null;
 
-if(nullVar){
-    console.log('I am an evil guy');
+if (nullVar) {
+    console.log('009\t', 'I am an evil guy');
 }
 
 // when using || operator, the expression gets evalutated to the first truthy value it meets
 
 let myOr = undefined || null || false || 'Bayan is nice :P';
-console.log(myOr); // Bayan is nice :P
+console.log('010\t',myOr); // Bayan is nice :P
 
 // or if they are all falsy values it will be evaluted to the last falsy value in the expression
-let myOr2 = undefined || null || false || 0 || '' ;
+let myOr2 = undefined || null || false || 0 || '';
 
-console.log(myOr2); // ''
+console.log('011\t',myOr2); // ''
 
 // and when using && operator, the expression gets evaluted to the first falsy value it meets
 let myAnd = "Mohamed" && "Bayan" && null;
 
-console.log(myAnd); // null
+console.log('012\t',myAnd); // null
 
 // but if all the values are truthy it will be evaluated to the last truthy value in the expression
 let myAnd2 = "Mohaned" && "Bayan" && "Are best friends";
-console.log(myAnd2); // "Are best friends"
+console.log('013\t',myAnd2); // "Are best friends"
 
 // the negate (not) operator converts true into false and false into true
 
-console.log(! true); // false;
-console.log(! false); // true;
+console.log('014\t',!true); // false;
+console.log('015\t',!false); // true;
 
 
 // if you need to convert any value to boolean value you can double negate it by !!
 // truthy values will be converted into true and falsy values will be converted into false
-console.log(!! "Bayan is so nice"); // true
+console.log('017\t',!!"Bayan is so nice"); // true
 
-console.log(!! undefined); // false
+console.log('018\t',!!undefined); // false
