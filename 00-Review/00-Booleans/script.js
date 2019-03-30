@@ -92,6 +92,6 @@ console.log('015\t',!false); // true;
 
 // if you need to convert any value to boolean value you can double negate it by !!
 // truthy values will be converted into true and falsy values will be converted into false
-console.log('017\t',!!"Bayan is so nice"); // true
+console.log('016\t',!!"Bayan is so nice"); // true
 
-console.log('018\t',!!undefined); // false
+console.log('017\t',!!undefined); // false
