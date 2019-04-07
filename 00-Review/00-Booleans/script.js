@@ -11,7 +11,7 @@ let b4 = b1 || b2 && b3;
 // Truthy and Falsy values
 
 // Truthy values are treated like true when included inside the condition of an if(TRUTHY EXPRESSION)
-// Falsy values are treated like true when included inside the condition of an if(FALSY EXPRESSION)
+// Falsy values are treated like false when included inside the condition of an if(FALSY EXPRESSION)
 
 // Among Numbers 0 is falsy
 
