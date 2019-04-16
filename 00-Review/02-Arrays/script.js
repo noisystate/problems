@@ -6,7 +6,7 @@ let arr1 = [];
 // array[index] = value
 
 arr1[0] = "Bayan";
-arr1[0] = "Kawas";
+arr1[1] = "Kawas";
 console.info("001\t", arr1);
 
 // or You can initialize it with items in it
