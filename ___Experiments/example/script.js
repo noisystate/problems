@@ -120,8 +120,24 @@ if (slice('Mohamed', 0) == 'Mohamed'
 }else {
     console.error('bad tests');
 }
+//-----------------------
+ str= "Greetings!";
+	let result ="";
+	for (i= str.length-1;i>=0;i--){
+	result = result + str[i];
+	}
+	console.log(result);	
 	
-
+//------------------
+intg =452;
+	t= intg.toString();
+	console.log(t);
+	let res ="";
+	for (i= t.length-1;i>=0;i--){
+	res = res + t[i];
+	}
+	console.log(res);
+	
  
 
 

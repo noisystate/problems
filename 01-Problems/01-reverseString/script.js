@@ -8,9 +8,12 @@
 
 
 function reverseString(str) {
-
+	let result ="";
+	for (i= str.length-1;i>=0;i--){
+		result = result + str[i];
+	}
+	return result ;		
 }
-
 
 if (reverseString('apple') === 'elppa'
     && reverseString('hello') === 'olleh'
