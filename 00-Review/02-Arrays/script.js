@@ -6,13 +6,10 @@ let arr1 = [];
 // array[index] = value
 
 arr1[0] = "Bayan";
-<<<<<<< HEAD
-arr1[0] = "Kawas";
-console.info("001b\t", arr1);
-=======
+
+
 arr1[1] = "Kawas";
 console.info("001\t", arr1);
->>>>>>> 840b1271c180c974fc830c92324e13448690a61f
 
 // or You can initialize it with items in it
 

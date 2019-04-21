@@ -40,6 +40,7 @@ let result ="";
 	// return intg ;
 	// }	
 
+
 // }
 function reverseInt(n) {
 	  let sign = Math.sign(n);
@@ -55,6 +56,7 @@ function reverseInt(n) {
      && reverseInt(500) === 5
      && reverseInt(-15) === -51
      && reverseInt(-90) === -9
+
 ){
     console.log('Your code passed all the tests');
 }else{
