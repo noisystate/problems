@@ -1,4 +1,4 @@
-let n1 = 100;
+        let n1 = 100;
 
 // to convert number into string
 

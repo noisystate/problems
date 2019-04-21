@@ -1,1 +1,11 @@
 console.log("Playing with booleans");
+let b1 = true ;
+let b2 = false ;
+let b3 = 2 > 5 ;
+let b4 = b1||b2 ;
+let b5 = 2 == 2;
+let b6 = b4 && b3;
+let b7 = b4 && b5;
+console.log( b3 );
+console.log( b6 );
+console.log( b7 );
