@@ -151,8 +151,11 @@ console.log(parseInt("5.1"));
 console.log(parseFloat("45.1"));
 console.log(parseInt("09-"));
 console.log(parseInt("0009hh"));
-
-
+//----------------------
+max=[];
+console.log(!!max.NaN);
+console.log(isNaN(max));
+console.log(!!NaN);
 
 
 
