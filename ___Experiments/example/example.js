@@ -157,6 +157,13 @@ console.log(!!max.NaN);
 console.log(isNaN(max));
 console.log(!!NaN);
 
+//---------------
+arr=[1,2,3,4];
+console.log(arr);
+console.log(arr.length)
+arrstring =arr.toString()
+console.log(arrstring);
+console.log(arrstring.length);
 
 
 
