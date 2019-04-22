@@ -9,9 +9,25 @@
 
 
 //try to solve it once using loops and once using reverseString method you implemented in a former exercise
+function reverseString(str) {
+let result ="";
+	for (i= str.length-1;i>=0;i--){
+		result = result + str[i];
+	}
+	return result ;	
+}
+
+
+
 
 function palindrome(str) {
-
+	let rev = reverseString(str);
+	if(rev===str){
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 
 if(palindrome('abba') === true
@@ -22,3 +38,4 @@ if(palindrome('abba') === true
 }else{
     console.error("Your code didn't pass all the tests");
 }
+
