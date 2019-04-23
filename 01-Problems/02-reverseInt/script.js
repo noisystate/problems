@@ -43,12 +43,13 @@ let result ="";
 
 // }
 function reverseInt(n) {
-	  let sign = Math.sign(n);
-      let str = n.toString();
-	  let rev = reverseString(str);
-	  let intg= parseInt(rev);
-	  let num= intg * sign ;
-	  return num ;
+	  // let sign = Math.sign(n);
+      // let str = n.toString();
+	  // let rev = reverseString(str);
+	  // let intg= parseInt(rev);
+	  // let num= intg * sign ;
+	//return num;
+	  return parseInt(reverseString(n.toString()))* Math.sign(n) ;
 }
 
  if(reverseInt(15) === 51
@@ -67,5 +68,4 @@ function reverseInt(n) {
 //convert the reversed string to integer by use parseInt("string") -->9
 
 
-console.log(reverseInt(-90));
 // "-90"
